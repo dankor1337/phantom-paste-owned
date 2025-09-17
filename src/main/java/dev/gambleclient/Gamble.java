@@ -1,3 +1,4 @@
+//PHANTOM ARE CLOWNS
 package dev.gambleclient;
 
 import net.minecraft.client.MinecraftClient;
@@ -47,7 +48,8 @@ public final class Gamble {
             Gamble.mc = MinecraftClient.getInstance();
 
             // Initialize authentication system
-            initializeAuthentication();
+            //initializeAuthentication(); patched by dankor1337.
+
         } catch (Throwable _t) {
             _t.printStackTrace(System.err);
         }

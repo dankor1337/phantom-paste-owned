@@ -1,0 +1,5 @@
+package dev.gambleclient.event.events;
+
+import dev.gambleclient.event.CancellableEvent;
+
+public class TickEvent extends CancellableEvent {}

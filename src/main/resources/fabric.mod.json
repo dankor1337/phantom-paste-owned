@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "entityculling",
+  "version": "11.0.1",
+  "name": "EntityCulling",
+  "description": "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
+  "icon": "icon.png",
+  "authors": [
+    "tr7zw"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/entityculling",
+    "sources": "https://github.com/tr7zw/EntityCulling"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.gambleclient.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21"
+  },
+  "recommends": {
+    "modmenu": ">=10.0.0"
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "jars": [
+    {
+      "file": "META-INF/jars/cloth-config-fabric-15.0.127-fabric.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-1.1.3+b559734490.jar"
+    }
+  ]
+}
